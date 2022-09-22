@@ -1,9 +1,14 @@
 ### Setup
 1. Create .env file containing below keys
+
     a) DB=student
+    
     b) USER
+    
     c) PASSWORD
+    
     d) CLIENT=mysql
+    
 2. create a student database in mysql   
 3. initialize Knex
     - run 20220922070223_create-student-table.ts migration file using "migrate:up 20220922070223_create-student-table.ts" command
@@ -23,5 +28,5 @@
 -- migrate:up 20220922070223_create-student-table.ts
 
 # start a Apollo Server
---  nodemon -x ts-node apolloServer.ts
+-- nodemon -x ts-node apolloServer.ts
 
